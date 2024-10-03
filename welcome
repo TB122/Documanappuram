@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Welcome</title>
+
+
+<style>
+.button {
+  background-color: blue; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.sahul {
+ 
+  text-align: center;
+}
+.abc {
+
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class ="sahul">
+
+<h4>Welcome User</h4>
+<img src="pray image.png" width="100" height="70"><br><br>
+<center>
+<table class = "abc">
+  <tr>
+    <th><button type="button" class = "button">Balance</button></th>
+    <th><a href = "withdraw.html"><button type="button" class = "button">Withdrawal</button></a></th>
+    <th><button type="button" class = "button">Bank Services</button></th>
+  </tr>
+   <tr>
+    <th><button type="button" class = "button">Card Offers</button></th>
+    <th><button type="button" class = "button">Change pin</button></th>
+<th><button type="button" class = "button">Exit</button></th>
+  </tr>
+</table>
+</center>
+
+
+</div>
+</body>
+</html>
+</html>
