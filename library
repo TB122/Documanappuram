@@ -1,0 +1,650 @@
+/home
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffcccc;
+    color: #990033;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #990033;
+    text-decoration: none;
+}
+footer{
+background-color:#ffcccc;
+color:#990033;
+text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.book{
+display:flex;
+justify-content:space-between;
+
+}
+.card {
+
+  box-shadow: 0 4px 8px 0 #ffcccc;
+  transition: 0.3s;
+width:250px;
+height:430px;
+margin:20px;
+}
+
+.card:hover {
+background-color:#d98cb3 ;
+}
+.card img{
+margin:31px;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <center> <h1>Welcome to Book Library</h1></center>
+<div class="container">
+<nav>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="author.html">Authors</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="book">
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiMbSwKMN3Tq6cSMjW1v7g6ZLIJlSVs3iDI7pyBuJo657HvVQfcYODHD9qmv46-hBsAno&usqp=CAU
+">
+  
+    <p style="margin-left:80px;"><b>Harry Potter</b></p>
+<button style="margin-left:90px; background-color:red; color:white; border:none; border-radius:10px; padding:5px; cursor:pointer;">Buy Now</button>
+ 
+</div> 
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEDa2gTNNT2yv-d9O5C86CSgXYoFeTLNvFA&s
+">
+  
+    <p style="margin-left:70px;"><b>The Lighthouse <span style="margin-left:25px;">Princess</span></b></p>
+<button style="margin-left:90px; background-color:red; color:white; border:none; border-radius:10px; padding:5px; cursor:pointer;">Buy Now</button>
+ 
+</div> 
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNJ5dg2HPXeuzxi6G9h_S24U-WoN7ZGI2F6pVHy4ETHIAxJEZCuSZEZmVikeMH50_D_k&usqp=CAU
+">
+  
+    <p style="margin-left:60px;"><b>The Famous Five</b></p>
+<button style="margin-left:90px; background-color:red; color:white; border:none; border-radius:10px; padding:5px; cursor:pointer;">Buy Now</button>
+ 
+</div> 
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpk15pb_AZ0S8Tvc2GgnDnAJSE2rIR6V_sWA&s
+">
+  
+    <p style="margin-left:60px;"><b>The Great Gatsby</b></p>
+<button style="margin-left:90px; background-color:red; color:white; border:none; border-radius:10px; padding:5px; cursor:pointer;">Buy Now</button>
+ 
+</div> 
+
+
+
+
+
+
+
+</section>
+<footer>
+<p>&copy; 2024 Book Library. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+/author
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #b3d9ff;
+    color: #00264d;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #00264d;
+    text-decoration: none;
+}
+footer{
+background-color:#b3d9ff;
+color:#00264d;
+text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.author{
+display:flex;
+justify-content:space-between;
+
+}
+.card {
+
+  box-shadow: 0 4px 8px 0 #b3d9ff;
+  transition: 0.3s;
+width:240px;
+height:430px;
+margin:20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0  #00264d;
+}
+button:hover{
+background-color:white;
+}
+.card img{
+margin:20px;
+width:200px;
+height:300px
+}
+
+</style>
+</head>
+<body>
+<header>
+  <center> <h1>Welcome to Book Library</h1></center>
+<div class="container">
+<nav>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="author.html">Authors</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="author">
+
+<div class="card">
+  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkRdfRvcojBnbsUcySv-9eQd93wIVPdkrSBrcV-Pp-mdwuyl9A
+">
+  
+    <p style="margin-left:80px;"><b>Leo Tolstoy</b></p>
+<button style="margin-left:90px; background-color:#004080; color:white; border:none; border-radius:10px; padding:6px; cursor:pointer; width:70px;"><a href="leo.html" style="color:white; text-decoration:none;">Books</a></button>
+ 
+</div> 
+
+<div class="card">
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyCP4-Eaj1KKUGO1zOHK5BobEUCyFebsKswibULjP8Fh64q5hV
+">
+  
+    <p style="margin-left:70px;"><b>George Orwell</b></p>
+<button style="margin-left:90px; background-color:#004080; color:white; border:none; border-radius:10px; padding:6px; cursor:pointer; width:70px;"><a href="george.html" style="color:white; text-decoration:none;">Books</a></button>
+ 
+</div> 
+
+<div class="card">
+  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTisAirxMLv15Q1Ho_y0RsniPu7oWFKK8p72yV2Pp0BMJ6mjR3t
+">
+  
+    <p style="margin-left:60px;"><b>Charles Dickens</b></p>
+<button style="margin-left:90px; background-color:#004080; color:white; border:none; border-radius:10px; cursor:pointer; padding:6px; width:70px; "><a href="charles.html" style="color:white; text-decoration:none;">Books</a></button>
+ 
+</div> 
+
+<div class="card">
+  <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQLWYH_rs0Sp0oB8VF9F9RyjdUMiOzjHahM9bWjSGqXsvjZPhEnkfKhWXCH6ysbnWw6
+">
+  
+    <p style="margin-left:75px;"><b>James Joyce</b></p>
+<button style="margin-left:90px; background-color:#004080; width:70px;  border:none; border-radius:10px; padding:6px; cursor:pointer;"><a href="james.html" style="color:white; text-decoration:none;">Books</a></button>
+ 
+</div> 
+
+
+</section>
+<footer>
+<p>&copy; 2024 Book Library. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+
+/contact
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Contact Page</title>
+   <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #e6ffe6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+height:800px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color:#003300; text-decoration:underline;">Contact Us</h2>
+        <p>Feel free to reach out to us with any questions or concerns.</p>
+        <div class="row">
+            <div class="column">
+                <form action="/submit_form" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..">
+                    
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject..">
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="column">
+                <h3>Our Address</h3>
+                <p>123 Library Lane</p>
+                <p>Booktown, BK 12345</p>
+                <p>Email: info@library.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+/charles
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+margin:50px;
+margin-left:70px;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:#ffffcc;
+color:#4d4d00;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+padding:10px;
+}
+
+</style>
+</head>
+<body>
+<center><h2 style="color:#808000; text-decoration:underline;">Charles Dickens</h2><center>
+    <table>
+        <tr>
+            <th>Book Cover</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVc8qMxeFdI62JK4PeGbe3uWDPsKQrgb6N466JN1wCFDrkpUTU" width="100"></td>
+            <td>Great Expectations is the thirteenth novel by Charles Dickens and his penultimate completed novel. The novel is a Bildungsroman and depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person.
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQdhkafAL0K1iVFJjmrT8hsgLkEl7e1Gm8OKM9gsoZwlDOL2FdU" width="100"></td>
+            <td>Coming Up for Air is the seventh book and fourth novel by English writer George Orwell, published in June 1939 by Victor Gollancz. It was written between 1938 and 1939 while Orwell spent time recuperating from illness in French Morocco, mainly in Marrakesh.
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS8kHZcKsyecztDGxRzU_7yc5rejqMuFKnuNNJiaPKEceKxQpsX" width="100"></td>
+            <td>Oliver Twist; or, The Parish Boy's Progress, is the second novel by English author Charles Dickens. It was originally published as a serial from 1837 to 1839 and as a three-volume book in 1838. 
+</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+/george
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+margin:50px;
+margin-left:70px;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:#ffffcc;
+color:#4d4d00;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+padding:10px;
+}
+
+</style>
+</head>
+<body>
+<center><h2 style="color:#808000; text-decoration:underline;">George Orwell</h2><center>
+    <table>
+        <tr>
+            <th>Book Cover</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSxQc9_zh01kG5GiNnifnPyDdvxmgNbWjCmj9H3GczvpCzq9a6p" width="100"></td>
+            <td>Burmese Days is the first novel by English writer George Orwell, published in 1934. Set in British Burma during the waning days of empire, when Burma was ruled from Delhi as part of British India, the novel serves as "a portrait of the dark side of the British Raj."
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7Q_596Qtib5SxZnQN71z99UFAYnbscDYaG-F2TQOBqIemmCOK" alt="Book 2 Cover" width="100"></td>
+            <td>Coming Up for Air is the seventh book and fourth novel by English writer George Orwell, published in June 1939 by Victor Gollancz. It was written between 1938 and 1939 while Orwell spent time recuperating from illness in French Morocco, mainly in Marrakesh.
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9RWpemGPbNyPWMMsyckxjkmnpfMO88ccTcVbyrWJaAfJJjb3U" width="100"></td>
+            <td>The Road to Wigan Pier is a book by the English writer George Orwell, first published in 1937. The first half of this work documents his sociological investigations of the bleak living conditions among the working class in Lancashire and Yorkshire in the industrial north of England before World War II.
+</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+/james
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+margin:50px;
+margin-left:70px;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:#ffffcc;
+color:#4d4d00;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+padding:10px;
+}
+
+</style>
+</head>
+<body>
+<center><h2 style="color:#808000; text-decoration:underline;">James Joyce</h2><center>
+    <table>
+        <tr>
+            <th>Book Cover</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOVTL-6lappeVWrTwum1FlZmavmlo5fwzaNyOKTrH6_9qTKSSJ" width="100"></td>
+            <td>A Portrait of the Artist as a Young Man is the debut novel of Irish writer James Joyce, published in 1916.
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQoXszQxO6ycrIXODdrQEOMKHWR5D6JIDbqzOHDdDu2Oc0RhjxK" width="100"></td>
+            <td>Exiles is James Joyce's only extant play and draws on the story of "The Dead", the final short story in Joyce's story collection Dubliners. The play was rejected by W. B. Yeats for production by the Abbey Theatre. Its first major London performance was in 1970, when Harold Pinter directed it at the Mermaid Theatre.
+
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0kVN3dt2m3gQ9jtOfSXBg8hANVsKbPaRIIejhAlQ-sBuMTRtg" width="100"></td>
+            <td>Stephen Hero is a posthumously published autobiographical novel by Irish author James Joyce. It is the early version of A Portrait of the Artist as a Young Man. Its published form reflects only a portion of the manuscript: the first 518 pages have disappeared; 383 pages remain.
+</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+/leo
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+margin:50px;
+margin-left:70px;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:#ffffcc;
+color:#4d4d00;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+padding:10px;
+}
+
+</style>
+</head>
+<body>
+<center><h2 style="color:#808000; text-decoration:underline;">Leo Tolstoy</h2><center>
+    <table>
+        <tr>
+            <th>Book Cover</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9bzaSLBXmS1_KEdm8HjTvcLEv6eBm5qkKtT5fu6E74vmK-jhZ" alt="Book 1 Cover" width="100"></td>
+            <td>War and Peace is a literary work by the Russian author Leo Tolstoy. Set d
+uring the Napoleonic Wars, the work comprises both a fictional narrative and chapters in which Tolstoy discusses history and philosophy.</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5g5dbv_-e4mjAtENbG5d7ypeG0dg07sw89kpUK6f9dU-YK7H6" alt="Book 2 Cover" width="100"></td>
+            <td>The Death of Ivan Ilyich, first published in 1886, is a novella by Leo Tolstoy, considered one of the masterpieces of his late fiction, written shortly after his religious conversion of the late 1870s.
+</td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyud3qAnB_FAjkkQz5ypKq5wYh-eQrh7_6MKSZF-J5hym-NjuV" alt="Book 3 Cover" width="100"></td>
+            <td>Anna Karenina is a novel by the Russian author Leo Tolstoy, first published in book form in 1878. Considered to be among the greatest works of literature ever written, Tolstoy himself called it his first true novel.</td>
+        </tr>
+    </table>
+</body>
+</html>
+
